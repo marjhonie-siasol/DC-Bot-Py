@@ -25,7 +25,6 @@ async def hi(ctx):
 async def ping(ctx):
     await ctx.send(f"pong: {round(bot.latency*1000)} ms")
 
-
 @bot.command(
     help="Gives you a motivation to cut a mountain :)",
     brief="Gives quotes to boost your confidence"
