@@ -18,7 +18,6 @@ async def hi(ctx):
     await ctx.send("Hey there!")
 
 
-
 @bot.command(
     help="Uses come crazy logic to determine if pong is actually the correct value or not.",
 	brief="Pong back to your channel with the latency."
