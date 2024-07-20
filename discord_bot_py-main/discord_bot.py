@@ -73,6 +73,7 @@ async def givetemp(ctx):
     humidity = response.json()['main']['humidity']
     await ctx.send(f"Local Temperature:\n{celsius} degree Celsius\n{fahrenheit} degree Fahrenheit\nHumidity: {humidity}%")
 
+
 @bot.command(
     help="Gives the best memes from reddit",
     brief="Drops some best hilarious memes trending on the Internet!"
