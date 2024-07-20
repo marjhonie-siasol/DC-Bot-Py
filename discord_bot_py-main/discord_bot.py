@@ -33,6 +33,7 @@ async def givequote(ctx):
     quote = r["content"]
     await ctx.send(quote)
 
+
 @bot.command(
     help="Gives the dumbest joke in the name of a Chuck Norris",
     brief="Gives a dumb joke on Chuck Norris"
